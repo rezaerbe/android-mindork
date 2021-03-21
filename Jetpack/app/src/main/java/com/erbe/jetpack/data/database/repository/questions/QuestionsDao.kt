@@ -1,11 +1,9 @@
 package com.erbe.jetpack.data.database.repository.questions
 
-import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.reactivex.Flowable
 import io.reactivex.Single
 
 @Dao

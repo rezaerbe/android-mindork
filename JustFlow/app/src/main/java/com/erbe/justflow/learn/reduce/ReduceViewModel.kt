@@ -31,5 +31,4 @@ class ReduceViewModel(
     fun getStatus(): LiveData<Resource<String>> {
         return status
     }
-
 }

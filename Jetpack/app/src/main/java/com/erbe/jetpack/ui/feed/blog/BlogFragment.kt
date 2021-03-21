@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.erbe.jetpack.R
 import com.erbe.jetpack.data.model.api.BlogResponse
 import com.erbe.jetpack.databinding.FragmentBlogsBinding
-import com.erbe.jetpack.databinding.FragmentFeedBinding
 
 class BlogFragment : Fragment(), BlogViewModel.BlogItemClickHandler {
 

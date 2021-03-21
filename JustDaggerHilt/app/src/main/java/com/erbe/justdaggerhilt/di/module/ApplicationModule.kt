@@ -27,24 +27,24 @@ class ApplicationModule {
         val loggingInterceptor = HttpLoggingInterceptor()
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
         OkHttpClient.Builder()
-            .addInterceptor(loggingInterceptor)
-            .build()
+                .addInterceptor(loggingInterceptor)
+                .build()
     } else OkHttpClient
-        .Builder()
-        .build()
+            .Builder()
+            .build()
 
 
     @Provides
     @Singleton
     fun provideRetrofit(
-        okHttpClient: OkHttpClient,
-        BASE_URL: String
+            okHttpClient: OkHttpClient,
+            BASE_URL: String
     ): Retrofit =
-        Retrofit.Builder()
-            .addConverterFactory(MoshiConverterFactory.create())
-            .baseUrl(BASE_URL)
-            .client(okHttpClient)
-            .build()
+            Retrofit.Builder()
+                    .addConverterFactory(MoshiConverterFactory.create())
+                    .baseUrl(BASE_URL)
+                    .client(okHttpClient)
+                    .build()
 
     @Provides
     @Singleton

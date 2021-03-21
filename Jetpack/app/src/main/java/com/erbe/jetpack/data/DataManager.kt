@@ -2,7 +2,6 @@ package com.erbe.jetpack.data
 
 import com.erbe.jetpack.data.database.DBHelper
 import com.erbe.jetpack.data.database.repository.questions.Question
-import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.Single
 

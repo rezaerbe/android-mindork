@@ -5,7 +5,6 @@
     tools:context="com.erbe.mvvm.ui.login.LoginActivity">
 
     <data>
-
         <import type="android.view.View" />
 
         <variable

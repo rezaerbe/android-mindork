@@ -7,7 +7,6 @@ import com.erbe.jetpack.data.model.api.OpenSourceResponse
 import com.erbe.jetpack.data.remote.ApiHeader
 import com.erbe.jetpack.data.remote.AppApiHelper
 import com.erbe.jetpack.utils.NetworkState
-import java.util.concurrent.TimeUnit
 
 class OpenSourceDataSource : PageKeyedDataSource<Long, OpenSourceResponse.Repo>() {
 

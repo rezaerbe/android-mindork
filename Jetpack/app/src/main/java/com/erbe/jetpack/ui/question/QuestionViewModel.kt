@@ -1,13 +1,10 @@
 package com.erbe.jetpack.ui.question
 
 import android.content.Context
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.erbe.jetpack.data.AppDataManager
 import com.erbe.jetpack.data.database.repository.questions.Question
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 
 class QuestionViewModel(context: Context?) : ViewModel() {
 

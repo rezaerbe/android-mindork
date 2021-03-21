@@ -21,6 +21,7 @@
             app:destination="@id/homeActivity"
             app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
+
     </fragment>
 
     <fragment
@@ -34,6 +35,7 @@
             app:launchSingleTop="true"
             app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="true" />
+
     </fragment>
 
     <activity

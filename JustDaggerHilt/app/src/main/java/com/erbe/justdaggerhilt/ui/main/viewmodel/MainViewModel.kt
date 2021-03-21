@@ -1,7 +1,10 @@
 package com.erbe.justdaggerhilt.ui.main.viewmodel
 
 import androidx.hilt.lifecycle.ViewModelInject
-import androidx.lifecycle.*
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.erbe.justdaggerhilt.data.model.User
 import com.erbe.justdaggerhilt.data.repository.MainRepository
 import com.erbe.justdaggerhilt.utils.NetworkHelper

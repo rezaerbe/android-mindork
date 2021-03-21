@@ -1,9 +1,7 @@
 package com.erbe.jetpack.data.database
 
-import androidx.lifecycle.LiveData
 import com.erbe.jetpack.data.database.repository.options.Option
 import com.erbe.jetpack.data.database.repository.questions.Question
-import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.Single
 

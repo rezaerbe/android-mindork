@@ -1,16 +1,12 @@
 package com.erbe.jetpack.data
 
 import android.content.Context
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.Transformations
-import com.google.gson.GsonBuilder
-import com.google.gson.internal.`$Gson$Types`
 import com.erbe.jetpack.data.database.AppDBHelper
 import com.erbe.jetpack.data.database.repository.options.Option
 import com.erbe.jetpack.data.database.repository.questions.Question
 import com.erbe.jetpack.utils.loadJSONFromAsset
-import io.reactivex.BackpressureStrategy
-import io.reactivex.Flowable
+import com.google.gson.GsonBuilder
+import com.google.gson.internal.`$Gson$Types`
 import io.reactivex.Observable
 import io.reactivex.Single
 

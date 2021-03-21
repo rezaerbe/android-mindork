@@ -4,9 +4,9 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import com.erbe.jetpack.data.database.repository.questions.Question
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import com.erbe.jetpack.data.database.repository.questions.Question
 
 @Entity(
     tableName = "options", foreignKeys = [(ForeignKey(
@@ -45,5 +45,3 @@ data class Option(
     @ColumnInfo(name = "updated_at")
     var updatedAt: String?
 )
-
-

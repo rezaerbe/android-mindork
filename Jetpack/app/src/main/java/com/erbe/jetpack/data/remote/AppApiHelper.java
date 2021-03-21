@@ -1,6 +1,10 @@
 package com.erbe.jetpack.data.remote;
 
-import com.erbe.jetpack.data.model.api.*;
+import com.erbe.jetpack.data.model.api.BlogResponse;
+import com.erbe.jetpack.data.model.api.LoginRequest;
+import com.erbe.jetpack.data.model.api.LoginResponse;
+import com.erbe.jetpack.data.model.api.LogoutResponse;
+import com.erbe.jetpack.data.model.api.OpenSourceResponse;
 import com.rx2androidnetworking.Rx2AndroidNetworking;
 
 import io.reactivex.Single;

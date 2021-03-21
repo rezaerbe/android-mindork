@@ -1,13 +1,12 @@
 package com.erbe.jetpack.data.database.repository.questions
 
-import androidx.recyclerview.widget.DiffUtil
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
+import com.erbe.jetpack.data.database.repository.options.Option
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import com.erbe.jetpack.data.database.repository.options.Option
 
 @Entity(tableName = "questions")
 data class Question(

@@ -8,10 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.ui.*
-import com.google.android.material.navigation.NavigationView
+import androidx.navigation.ui.NavigationUI
 import com.erbe.jetpack.R
 import com.erbe.jetpack.databinding.ActivityHomeBinding
+import com.google.android.material.navigation.NavigationView
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var drawerLayout: DrawerLayout
